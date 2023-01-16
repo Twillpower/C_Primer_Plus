@@ -1,3 +1,4 @@
+git status  //查看暂存状态
 git add *   //暂存所有文件
 git commit -m *  //推送所有文件至本地库
 git remote -v   //查看推送链接
