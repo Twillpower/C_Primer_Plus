@@ -1,0 +1,3 @@
+git remote -v   //查看推送链接
+git push -u C_Primer_Plus_GitHub master  //推送至GitHub
+git push -u C_Primer_Plus_Gitee master   //推送至Gitee
