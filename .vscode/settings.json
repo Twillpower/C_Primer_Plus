@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c"
+    },
+    "commentTranslate.hover.enabled": true,
+    "commentTranslate.targetLanguage": "zh-CN"
+}
