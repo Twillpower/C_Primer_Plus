@@ -1,6 +1,20 @@
+1. 配置提交人姓名：git config --global user.name “提交人姓名” # (对当前系统用户有效)
+2. 配置提交人姓名：git config --global user.email  “提交人邮箱” # (对当前系统用户有效)
+作用：识别开发人员，与登良github的账户无关
+3. 查看git配置信息：git config --list
+
+按如下命令来生成 sshkey:
+ssh-keygen -t ed25519 -C "xxxxx@xxxxx.com"  
+查看 ~/.ssh/id_ed25519.pub 文件内容，获取到你的 public key
+cat ~/.ssh/id_ed25519.pub
+
+git remote add C++_Primer_Plus_Gitee git@gitee.com:Twillpower/cpp-primer--plus.git
+git remote add C++_Primer_Plus_GitHub git@github.com:Twillpower/Cpp_Primer_Plus.git
+
+
 git status  //查看暂存状态
 git add *   //暂存所有文件
 git commit -m *  //推送所有文件至本地库
 git remote -v   //查看推送链接
-git push -u C_Primer_Plus_GitHub master  //推送至GitHub
-git push -u C_Primer_Plus_Gitee master   //推送至Gitee
+git push -u C++_Primer_Plus_GitHub master  //推送至GitHub
+git push -u C++_Primer_Plus_Gitee master   //推送至Gitee (-f:强制提交)
