@@ -3,5 +3,6 @@
         "stdio.h": "c"
     },
     "commentTranslate.hover.enabled": true,
-    "commentTranslate.targetLanguage": "zh-CN"
+    "commentTranslate.targetLanguage": "zh-CN",
+    "C_Cpp.errorSquiggles": "disabled"
 }

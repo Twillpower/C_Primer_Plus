@@ -1,6 +1,6 @@
 表3.1 C语言的数据类型关键字
 
-![](img/表3.1%20C语言的数据类型关键字.png)
+![img](img/表3.1C语言的数据类型关键字.png)
 
 _Bool类型表示布尔值（true或false），
 _complex和_Imaginary分别表示复数和虚数
@@ -15,7 +15,7 @@ u或U后缀表示unsigned long long，如 5ull、10LLU、6LLU或9Ull。
 
 表3.2 转义序列
 
-![img](img\表3.2 转义序列.png)
+![img](img\表3.2转义序列.png)
 
 默认情况下，编译器假定浮点型常量是double类型的精度
 
