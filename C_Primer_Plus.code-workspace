@@ -6,7 +6,7 @@
 	],
 	"settings": {
 		"files.associations": {
-			"stdio.h": "c"
+			"stdio.h": "c",
 		},
 		"workbench.editor.wrapTabs": true
 	}
