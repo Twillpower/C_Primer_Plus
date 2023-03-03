@@ -49,7 +49,7 @@ void sum_cols(int ar[][COLS], int rows)
     }
 }
 
-int sum2d(int ar[][COLS], int rows)
+int sum2d(int (*ar)[COLS], int rows)
 {
     int r; 
     int c;
