@@ -4,9 +4,13 @@
 3. 查看git配置信息: git config --list
 
 按如下命令来生成 sshkey:
-ssh-keygen -t ed25519 -C "xxxxx@xxxxx.com"  
-查看 ~/.ssh/id_ed25519.pub 文件内容，获取到你的 public key
-cat ~/.ssh/id_ed25519.pub
+ssh-keygen -t rsa -C "your_email@example.com" (后面的步骤都可以直接回车)
+将新生成的key添加到ssh-agent中:
+    eval "$(ssh-agent -s)"
+    Agent pid 59566
+    ssh-add ~/.ssh/id_rsa
+查看 ~/.ssh/id_rsa.pub 文件内容，获取到你的 public key
+cat ~/.ssh/id_rsa.pub
 
 git remote add C_Primer_Plus_Gitee git@gitee.com:Twillpower/C_Primer_Plus.git
 git remote add C_Primer_Plus_GitHub git@github.com:Twillpower/C_Primer_Plus.git
